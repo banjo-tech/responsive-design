@@ -44,6 +44,10 @@
     color: white;
 }
 
+.mobile-logo{
+    display: none;
+}
+
 .desktop-nav-inner {
     /* display: flex; */
     /* margin: 0; */
@@ -107,6 +111,16 @@ ul.navlink .closeMenu, icons i{
     display: none;
     cursor: pointer;
 }  */
+
+
+div.snapshot-box-content {
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-left: -100px; */
+}
+
+
+
 div.hero-section {
      background: #304353; 
     padding: 10rem;
@@ -458,12 +472,16 @@ mobile-nav-content{
             justify-content: center; 
             align-items: center;
             padding: 4rem 6rem;
-            margin-left: 90px;
+            /* margin-left: 90px; */
         }  
         div.snapshot-box-content {
             /* display: flex;
-            justify-content: space-between; */
-            margin-left: -100px;
+            justify-content: space-between;
+            margin-left: -100px; */
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
     } 
 }
