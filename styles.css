@@ -67,10 +67,10 @@
     margin-left: 15px;
 }
 
-.mobile-nav{
+/* .mobile-nav{
     width: 100%;
     display: block
-}
+} */
 
 .mobile-logo{
     width: 20%;
@@ -406,9 +406,9 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
-mobile-nav-content{
+.mobile-nav-content{
     /* background-color: darkblue; */
-    display: block;
+    /* display: block; */
     white-space: pre;
     width: 100%;
     margin-top: 50px;
